@@ -52,3 +52,9 @@ area
   (or (> x y)(= x y)))
 
 (>= 100 20)
+
+;递增和递减
+(display "=====>>> 递增和递减\n")
+(define number 10)
+(inc number)
+(dec number)
